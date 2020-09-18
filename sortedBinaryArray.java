@@ -1,11 +1,11 @@
 Class Main
 {
-  public static void sortedBinaryArray(int arr[], int n)
+  public static void sortedBinaryArray(int a[], int n)
   {
     int j=-1;
     for(int i=0;i<n;i++)
     {
-      if(a[i]>1)
+      if(a[i]<1)
       {
         j++;
         int temp=a[j];
@@ -22,5 +22,6 @@ Class Main
     for(int i=0;i<n;i++)
     {
       System.out.print(arr[i]+" ");
+    }
     }
 }
